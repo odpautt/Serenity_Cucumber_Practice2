@@ -29,6 +29,7 @@ public class SignInSteps {
     @When("^el usuario ingresa un correo valido$")
     public void elUsuarioIngresaUnCorreoValido() {
         signInActions.hacerClickCrearUsuario();
+
     }
 
     @When("^el usuario diligencia el formulario con los datos requeridos$")
@@ -40,6 +41,6 @@ public class SignInSteps {
     public void elSistemeDeberiaRealizarElRegistroDirigiendoAlUsuarioALaPaginaMyAccount() {
         MatcherAssert.assertThat("El usuario esta en la paguina MY ACCOUNT",
                 signInActions.obtenerNombreTituloPagina(),
-                Matchers.equalTo("MY ACCOUNT2"));
+                Matchers.equalTo("MY ACCOUNT"));
     }
 }

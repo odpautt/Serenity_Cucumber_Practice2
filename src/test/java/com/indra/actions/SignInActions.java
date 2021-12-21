@@ -18,6 +18,7 @@ public class SignInActions extends SignInPage {
 
 
     public void llenarCorreo(){
+        System.out.println(generarCorreoAletario());
         enter(generarCorreoAletario()).into(getEmail());
     }
 
