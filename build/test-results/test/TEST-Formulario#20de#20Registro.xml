@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Formulario de Registro" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-12-21T17:24:50" hostname="22LAP5CD1195R94" time="15.673">
+  <properties/>
+  <testcase name="Otro usuario nuevo quiero registrarme en el portal de compras" classname="Formulario de Registro" time="15.673">
+    <failure message="java.lang.AssertionError: El usuario esta en la paguina MY ACCOUNT&#10;Expected: &quot;MY ACCOUNT2&quot;&#10;     but: was &quot;MY ACCOUNT&quot;" type="java.lang.AssertionError">java.lang.AssertionError: El usuario esta en la paguina MY ACCOUNT
+Expected: &quot;MY ACCOUNT2&quot;
+     but: was &quot;MY ACCOUNT&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at com.indra.steps_definitions.SignInSteps.elSistemeDeberiaRealizarElRegistroDirigiendoAlUsuarioALaPaginaMyAccount(SignInSteps.java:41)
+	at ✽.el sisteme deberia realizar el registro, dirigiendo al usuario a la pagina My Account(src/test/resources/features/automationpractice/sing_in/sign_in.feature:23)
+</failure>
+  </testcase>
+  <system-out><![CDATA[12:24:51.169 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+12:24:51.169 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+12:24:56.726 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+12:24:56.727 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+12:24:56.882 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\dojo_serenity_cucumber\target\site\serenity\c6ea513785c80f4d3ac7fcc84d2e4e02098eaa472280f845a0d68a042f7613fc.png
+12:24:57.650 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\dojo_serenity_cucumber\target\site\serenity\d152d0ac5b1dcb521f5d22d5b150f550ea0b595ab15842be3b012b3705d2e262.png
+12:24:57.652 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3063667313658422290
+12:24:57.652 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Repo\dojo_serenity_cucumber\target\site\serenity\d152d0ac5b1dcb521f5d22d5b150f550ea0b595ab15842be3b012b3705d2e262.png
+12:25:04.423 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\dojo_serenity_cucumber\target\site\serenity\98c669e363f33008a4d4ad3eb10cbd3433633b3bf32e9201bd5954086f5b5af4.png
+12:25:04.602 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Repo\dojo_serenity_cucumber\target\site\serenity\98c669e363f33008a4d4ad3eb10cbd3433633b3bf32e9201bd5954086f5b5af4.png
+12:25:06.212 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Otro usuario nuevo quiero registrarme en el portal de compras
+--------------------------------------------------------------------------?[0m
+12:25:06.214 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+12:25:06.271 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP Then el sisteme deberia realizar el registro, dirigiendo al usuario a la pagina My Account?[0m
+12:25:06.271 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - El usuario esta en la paguina MY ACCOUNTExpected: "MY ACCOUNT2" but: was "MY ACCOUNT"
+]]></system-out>
+  <system-err><![CDATA[dic 21, 2021 12:24:50 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6521
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic 21, 2021 12:24:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
